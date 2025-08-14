@@ -1,0 +1,10 @@
+[Patch_Info]
+SW_Ver=R4515_G_08.BD.D3R
+Description=MP3 bitrate support 320 kbps
+Author=Calvin_Klein
+
+[Patch_Code]
+009C8084: E3540D05
+
+[Patch_Undo]
+009C8084: E35400C0

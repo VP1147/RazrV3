@@ -1,0 +1,10 @@
+[Patch_Info]
+SW_Ver=R4515_G_08.BD.D3R
+Description=Allow creating directories anywhere.
+Author=tim_apple, EXL
+
+[Patch_Code]
+005FEE62: 2001
+
+[Patch_Undo]
+005FEE62: 2000

@@ -1,0 +1,10 @@
+[Patch_Info]
+SW_Ver=R4515_G_08.BD.D3R
+Description=Dictaphone 1 minute instead of 30 seconds.
+Author=bigserg555
+
+[Patch_Code]
+00A59B10: 0000FFFF
+
+[Patch_Undo]
+00A59B10: 00007530
